@@ -18,5 +18,10 @@ class StringCalcTest {
 	public void addUpToTwoNumbersTest() {
 		assertEquals(calc.Add("1,2"), 3);
 	}
+	
+	@Test
+	public void useNewLineAsDelimiterTest() {
+		assertEquals(calc.Add("1\n2,3"), 6);
+	}
 
 }
