@@ -12,7 +12,8 @@ public class StringCalc {
 		
 		int sum = 0;
 		for(int i=0;i<nums.length;i++) {
-			sum+= Integer.parseInt(nums[i]);
+			if(Integer.parseInt(nums[i])<=1000)
+				sum+= Integer.parseInt(nums[i]);
 		}
 		return sum;
 	}
