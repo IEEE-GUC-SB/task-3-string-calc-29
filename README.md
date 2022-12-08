@@ -1,1 +1,3 @@
-# task-3-string-calc-29
+Omar Wael Mahmoud
+01010027953
+omarwaelawad@yahoo.com
