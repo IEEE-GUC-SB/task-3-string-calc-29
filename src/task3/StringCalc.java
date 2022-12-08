@@ -3,7 +3,7 @@ package task3;
 public class StringCalc {
 
 	public int Add(String string) {
-		String[] nums = string.split("[\n,]");
+		String[] nums = string.split("[\n|,]");
 		
 		int sum = 0;
 		for(int i=0;i<nums.length;i++) {
