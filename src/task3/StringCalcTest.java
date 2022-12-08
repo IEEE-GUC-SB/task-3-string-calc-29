@@ -33,5 +33,10 @@ class StringCalcTest {
 	public void numbersGreaterThan1000AreIgnored() {
 		assertEquals(calc.Add("1001,2"), 2);
 	}
+	
+	@Test
+	public void usingMultiCharacterDelimter() {
+		assertEquals(calc.Add("//[***]\n1***2***3"), 6);
+	}
 
 }
