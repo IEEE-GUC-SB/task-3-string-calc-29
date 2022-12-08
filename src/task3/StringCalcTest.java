@@ -23,5 +23,10 @@ class StringCalcTest {
 	public void useNewLineAsDelimiterTest() {
 		assertEquals(calc.Add("1\n2,3"), 6);
 	}
+	
+	@Test
+	public void useDifferentDelimter() {
+		assertEquals(calc.Add("//;\n1;2"), 3);
+	}
 
 }
